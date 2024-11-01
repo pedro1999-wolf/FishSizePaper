@@ -1,5 +1,5 @@
 
-#Astyanax janeiroensis
+#Deuterodon janeiroensis
 
 plot(density(ast.s$length)) # Checking minimal acceptable normality
 
@@ -12,7 +12,7 @@ tab_model(lm.ast)
 plot(lm.ast, col.line=1)
 plot(density(residuals(lm.ast)))
 
-#Astyanax hastatus
+#Deuterodon hastatus
 
 plot(density(deut.s$length))
 

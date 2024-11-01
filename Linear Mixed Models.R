@@ -1,5 +1,5 @@
 
-###Astyanax janeiroensis
+###Deuterodon janeiroensis
 
 lmm.ast.neut<-lmer(length~1+(1|cam), data=ast.s) # Neutral model
 lmm.ast<-lmer(length~du+food+pred+comp+(1|cam), data=ast.s) # Mixed model
@@ -16,7 +16,7 @@ vif(lmm.ast)
 # AIC Test neutral x predictors models
 AIC(lmm.ast.neut, lmm.ast)
 
-###Astyanax hastatus
+###Deuterodon hastatus
 
 lmm.deut.neut<-lmer(length~1+(1|cam), data=deut.s)
 lmm.deut<-lmer(length~du+food+pred+comp+(1|cam), data=deut.s)
